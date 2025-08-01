@@ -27,3 +27,4 @@ def salutation(Prenom,nom,age=27):  #Usage de plusieurs paramètre une virgule d
 
   #Usage de la fonction 
 salutation(Prenom="Kismath",nom="Gnansounou") # Si je commence à mettre le paramètre puisl'argument je doit continuer jusqu'a la fin 
+print("hey")
