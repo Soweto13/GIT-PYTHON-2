@@ -146,7 +146,13 @@ Les arguments doivent repondre au paramétrage de la fonction
 -La fonction "Print" va afficher un message 
 -La fonction "input" va  afficher un message à l'utilisateur puis un retour de l'utilisateur 
 
+/// POO (Programation orienter objet)
+Creer des programmes 
+-- Modulaires 
+--Efficaces 
+--Maintenables
 
+Améliorer la productivitée et la qualité des projet en utilisant les classes et les objets
 
 
 

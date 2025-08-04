@@ -1,0 +1,9 @@
+#CLASSE = MODELE, Usage des fonctions propre à la classe (Methodes)
+#OBJET= Sous modèle creer par le modèle
+
+#Créaation de classe mot clé (class)
+class Mylife:
+    pass
+
+Gael= Mylife()
+print(Gael)

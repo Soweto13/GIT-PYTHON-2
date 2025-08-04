@@ -1,0 +1,11 @@
+import numpy as np
+
+# Poutre simplement appuyée, charge q uniformément répartie
+L = 10.0   # Longueur (m)
+E = 2.1e11  # Module de Young (Pa)
+I = 8.3e-6  # Moment d'inertie (m^4)
+q = 1000   # Charge répartie (N/m)
+
+# Flèche maximale (formule classique)
+f_max = (5 * q * L**4) / (384 * E * I)
+print(f"Flèche maximale au centre : {f_max:.4f} m")

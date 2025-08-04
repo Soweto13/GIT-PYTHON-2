@@ -1,0 +1,60 @@
+###print("Bonjour à tous!")
+
+##abs(-6) # Donne la valeur absolue d'un nombre 
+##len([1,2,3,4,5]) # Donne le nombre d'élément dans une séquence 
+##input ("Entrer le nombre:") # faire une demande 
+##open("fichier.txt") # De part le nom d'un fichier ou le chemin l'ouvrir et lire le contenu
+  
+
+  ### CREER UNE FONCTION PYTHON 
+## Paramètres et argument d'une fonction 
+# 1 La definition du code de la fonction 
+#def salutation(Prenom,nom,age):  #Usage de plusieurs paramètre une virgule doit les séparer 
+  #print(Prenom)
+  #print(f"Bonjour {Prenom} {nom} / {age}")
+  #print("T'es Radieux Aujourd'hui!") 
+
+  #Usage de la fonction 
+#salutation("Kismath", "Amoussa",24)
+
+# Avoir des valeurs par defaut dans le paramétrage de la fonction plutôt mettre 
+
+#def salutation(Prenom,nom=Gnansounou,age=27):  #Usage de plusieurs paramètre une virgule doit les séparer 
+  #print(Prenom)
+  #print(f"Bonjour {Prenom} {nom}/{age}")
+ #print("T'es Radieux Aujourd'hui!") 
+
+  #Usage de la fonction 
+#salutation(Prenom="Kismath") # Si je commence à mettre le paramètre puisl'argument je doit continuer jusqu'a la fin 
+
+
+#Ici nous allons definir une fontion qui retourne les resultas à reuitiliser qu'effectuer des opérations  
+
+### J'aurai deux cas 1 et 2 le premier ou je ne retourne pas et le second si ++++ none veut dire rien en python
+# CAS 1
+#def Calculer_aire(long, larg):
+ # aire = long*larg
+  #print("l'aire est de:",aire)
+ 
+#Calculer_aire(178,25)
+
+#CAS 2
+def Calculer_aire(long, larg):
+  aire = long*larg
+  return aire
+ 
+aire=Calculer_aire(187,25)
+
+print("L'aire est de:",aire)
+
+#Oher cas : Lorsque la variable est définir avant d'enoncer la fonction elle peut être reutiliser après la fonction, 
+# Mais quand elle est incluse dans la fonction il faut la retourner et effecter l'usage de la fonction à cette varriable ou pas
+# Et  il y a aussi les varriables Globales 
+
+
+## //  Les FONCTIONS ANONYME
+
+# L'avantage est que notre code sera definir sur une seule ligne , on la definir comme une variable avec le mots clé "lambda"
+
+ma_richesse =lambda mentuelle, nbmois: mentuelle*nbmois 
+print("Ma richesse au 31 aout 2025 est de", ma_richesse(1000000,12))
