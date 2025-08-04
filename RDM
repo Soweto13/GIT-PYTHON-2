@@ -9,3 +9,5 @@ q = 1000   # Charge répartie (N/m)
 # Flèche maximale (formule classique)
 f_max = (5 * q * L**4) / (384 * E * I)
 print(f"Flèche maximale au centre : {f_max:.4f} m")
+print (f_max)
+
